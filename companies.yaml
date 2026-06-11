@@ -1,11 +1,5 @@
 companies:
-  - Analysis Group
-  - Cornerstone Research
-  - The Brattle Group
-  - NERA
-  - CRA
-  - Compass Lexecon
-  - Edgeworth Economics
-  - BRG
-  - Keystone Strategy
-  - Resolution Economics
+
+  - name: Analysis Group
+    type: icims
+    url: https://analystcareers-analysisgroup.icims.com/jobs/search
