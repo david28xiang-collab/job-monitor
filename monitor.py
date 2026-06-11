@@ -1,8 +1,11 @@
 import requests
+import re
 
 url = "https://analystcareers-analysisgroup.icims.com/jobs/search"
 
-response = requests.get(url)
+html = requests.get(url).text
 
-print("Status:", response.status_code)
-print(response.text[:1000])
+matches = re.findall(r"/jobs/\d+", html)
+
+print(matches[:50])
+print("count:", len(matches))
