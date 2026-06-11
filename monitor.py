@@ -1,11 +1,13 @@
 import requests
 import re
 
-url = "https://analystcareers-analysisgroup.icims.com/jobs/search"
+html = requests.get(
+    "https://analystcareers-analysisgroup.icims.com/jobs/search"
+).text
 
-html = requests.get(url).text
+matches = re.findall(r'/jobs/\d+/[^"]+', html)
 
-matches = re.findall(r"/jobs/\d+", html)
+for m in matches:
+    print(m)
 
-print(matches[:50])
 print("count:", len(matches))
