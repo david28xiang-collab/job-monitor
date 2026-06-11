@@ -14,6 +14,7 @@ def fetch_icims(search_url, company):
     )
 
     jobs = []
+
     seen = set()
 
     for a in soup.find_all("a", href=True):
@@ -23,7 +24,19 @@ def fetch_icims(search_url, company):
         if "/jobs/" not in href:
             continue
 
-        if "/jobs/login" in href:
+        try:
+            job_id = (
+                href.split("/jobs/")[1]
+                .split("/")[0]
+            )
+
+            if len(job_id) == 0:
+                continue
+
+            if not job_id[0].isdigit():
+                continue
+
+        except Exception:
             continue
 
         if href in seen:
@@ -31,17 +44,11 @@ def fetch_icims(search_url, company):
 
         seen.add(href)
 
-        title = a.get_text(strip=True)
-
-        if title.startswith("Title"):
-            title = title[5:].strip()
-
         jobs.append({
             "company": company,
-            "job_id": href.split("/jobs/")[1].split("/")[0],
-            "title": title,
+            "job_id": job_id,
+            "title": a.get_text(strip=True).replace("Title", ""),
             "url": href.split("?")[0]
         })
 
     return jobs
-

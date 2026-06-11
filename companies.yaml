@@ -11,3 +11,8 @@ companies:
   - name: Coherent Economics
     type: greenhouse
     board: coherenteconomicsllc
+  
+  - name: Cornerstone Research
+    type: icims
+    url: https://ug-chire.icims.com/jobs/search
+    
