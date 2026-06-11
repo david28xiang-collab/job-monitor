@@ -1,9 +1,8 @@
-import yaml
+import requests
 
-with open("companies.yaml", "r") as f:
-    data = yaml.safe_load(f)
+url = "https://analystcareers-analysisgroup.icims.com/jobs/search"
 
-print("Companies being monitored:")
+response = requests.get(url)
 
-for company in data["companies"]:
-    print(company)
+print("Status:", response.status_code)
+print(response.text[:1000])
