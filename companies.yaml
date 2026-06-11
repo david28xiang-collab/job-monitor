@@ -1,0 +1,31 @@
+companies:
+
+  - name: Analysis Group
+    website: https://analystcareers-analysisgroup.icims.com/jobs/search
+
+  - name: Cornerstone Research
+    website: https://www.cornerstone.com/careers
+
+  - name: The Brattle Group
+    website: https://www.brattle.com/careers
+
+  - name: NERA
+    website: https://www.nera.com/careers.html
+
+  - name: CRA
+    website: https://www.crai.com/careers
+
+  - name: Compass Lexecon
+    website: https://www.compasslexecon.com/careers
+
+  - name: Edgeworth Economics
+    website: https://www.edgewortheconomics.com/careers
+
+  - name: BRG
+    website: https://www.thinkbrg.com/careers
+
+  - name: Keystone Strategy
+    website: https://www.keystonestrategy.com/careers
+
+  - name: Resolution Economics
+    website: https://resecon.com/careers
