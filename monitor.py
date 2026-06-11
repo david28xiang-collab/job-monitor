@@ -1,7 +1,28 @@
 import requests
 
-html = requests.get(
-    "https://www.crai.com/cra-careers/jobs/"
-).text
+companies = {
+    "Analysis Group":
+        "https://analystcareers-analysisgroup.icims.com/jobs/search",
 
-print(html[:5000])
+    "Brattle":
+        "https://www.brattle.com/careers/",
+
+    "Compass Lexecon":
+        "https://www.compasslexecon.com/careers/",
+
+    "NERA":
+        "https://www.nera.com/careers.html",
+}
+
+for name, url in companies.items():
+
+    try:
+        r = requests.get(url, timeout=20)
+
+        print()
+        print(name)
+        print("status:", r.status_code)
+        print("length:", len(r.text))
+
+    except Exception as e:
+        print(name, e)
