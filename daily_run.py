@@ -63,3 +63,6 @@ for company_name, jobs in company_jobs.items():
 
 
 
+import subprocess
+
+subprocess.run(["python", "compare.py"])
