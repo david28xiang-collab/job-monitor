@@ -1,5 +1,13 @@
 companies:
 
+  - name: CRA
+    type: greenhouse
+    board: charlesriverassociates
+
   - name: Analysis Group
     type: icims
     url: https://analystcareers-analysisgroup.icims.com/jobs/search
+
+  - name: Coherent Economics
+    type: greenhouse
+    board: coherenteconomicsllc

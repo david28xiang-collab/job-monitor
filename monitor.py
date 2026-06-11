@@ -1,28 +1,75 @@
-import requests
+import os
+import yaml
+import pandas as pd
 
-companies = {
-    "Analysis Group":
-        "https://analystcareers-analysisgroup.icims.com/jobs/search",
+from greenhouse import fetch_greenhouse
+from icims import fetch_icims
 
-    "Brattle":
-        "https://www.brattle.com/careers/",
+company_jobs = {}
+all_jobs = []
 
-    "Compass Lexecon":
-        "https://www.compasslexecon.com/careers/",
+with open("companies.yaml", "r") as f:
+    config = yaml.safe_load(f)
 
-    "NERA":
-        "https://www.nera.com/careers.html",
-}
+for company in config["companies"]:
 
-for name, url in companies.items():
+    company_type = company.get("type")
 
-    try:
-        r = requests.get(url, timeout=20)
+    if company_type == "greenhouse":
 
-        print()
-        print(name)
-        print("status:", r.status_code)
-        print("length:", len(r.text))
+        jobs = fetch_greenhouse(
+            company["board"],
+            company["name"]
+        )
 
-    except Exception as e:
-        print(name, e)
+    elif company_type == "icims":
+
+        jobs = fetch_icims(
+            company["url"],
+            company["name"]
+        )
+
+    else:
+
+        print(
+            f"Skipping {company['name']} "
+            f"(unknown type: {company_type})"
+        )
+
+        continue
+
+    company_jobs[company["name"]] = jobs
+    all_jobs.extend(jobs)
+
+os.makedirs("data", exist_ok=True)
+
+for company_name, jobs in company_jobs.items():
+
+    df = pd.DataFrame(jobs)
+
+    filename = (
+        company_name.lower()
+        .replace(" ", "_")
+    )
+
+    df.to_csv(
+        f"data/{filename}.csv",
+        index=False
+    )
+
+    print(
+        f"Saved {len(df)} jobs for {company_name}"
+    )
+
+master_df = pd.DataFrame(all_jobs)
+
+master_df.to_csv(
+    "data/jobs_master.csv",
+    index=False
+)
+
+print()
+print(f"Total jobs: {len(master_df)}")
+print()
+
+print(master_df.head())
