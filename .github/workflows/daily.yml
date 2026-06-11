@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pyyaml
+          pip install requests pyyaml
 
       - name: Run monitor
         run: |
