@@ -6,7 +6,6 @@ from greenhouse import fetch_greenhouse
 from icims import fetch_icims
 
 company_jobs = {}
-all_jobs = []
 
 with open("companies.yaml", "r") as f:
     config = yaml.safe_load(f)
@@ -39,7 +38,6 @@ for company in config["companies"]:
         continue
 
     company_jobs[company["name"]] = jobs
-    all_jobs.extend(jobs)
 
 os.makedirs("data", exist_ok=True)
 

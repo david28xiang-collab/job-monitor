@@ -1,6 +1,7 @@
 import os
 import shutil
 import pandas as pd
+from discord_notify import send_discord
 
 for file in os.listdir("data"):
 
@@ -31,16 +32,20 @@ for file in os.listdir("data"):
 
     if len(new_ids) > 0:
 
-        print()
-        print("=" * 50)
-        print(f"NEW JOBS FOUND IN {file}")
-        print("=" * 50)
+        new_jobs = current[ current["job_id"] .astype(str) .isin(new_ids) ]
+        company = ( file.replace(".csv", "") .replace("_", " ") .title() )
 
-        print(
-            current[
-                current["job_id"].astype(str).isin(new_ids)
-            ][["title", "url"]]
-        )
+        message = ( f"鼠奇奇给你找到了新工作: \n{company}\n\n" )
+
+        for _, row in new_jobs.iterrows(): 
+            message += ( f"{row['title']}\n" 
+                        f"{row['url']}\n\n" ) 
+        send_discord(message)
+
+        print() 
+        print("=" * 50) 
+        print(message) 
+        print("=" * 50)
 
 # Update baseline after comparison
 
