@@ -25,4 +25,8 @@ companies:
     type: workday
     api_url: https://fticonsulting.wd108.myworkdayjobs.com/wday/cxs/fticonsulting/CompassLexeconCareers/jobs
     career_path: CompassLexeconCareers
+
+  - name: Brattle Group
+    type: greenhouse
+    board: thebrattlegroup
     

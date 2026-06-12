@@ -1,7 +1,12 @@
+from datetime import datetime
 import os
 import shutil
 import pandas as pd
 from discord_notify import send_discord
+
+today = datetime.now().strftime("%Y-%m-%d")
+
+found_new_jobs = False
 
 for file in os.listdir("data"):
 
@@ -32,25 +37,47 @@ for file in os.listdir("data"):
 
     if len(new_ids) > 0:
 
-        new_jobs = current[ current["job_id"] .astype(str) .isin(new_ids) ]
+        found_new_jobs = True
+
+        new_jobs = current[
+            current["job_id"].astype(str).isin(new_ids)
+        ]
+
         company = new_jobs.iloc[0]["company"]
 
+        message = (
+            "--------------------------------------------------\n"
+            f"📅 {today}\n\n"
+            f"🐭 **鼠奇奇给你找到了新工作**\n"
+            f"🏢 {company}\n\n"
+        )
 
-        message = "-" * 50
-        message += ( f"🐭 **鼠奇奇给你找到了新工作**: \n{company}\n\n" )
+        for _, row in new_jobs.iterrows():
 
-        for _, row in new_jobs.iterrows(): 
-            message += ( f"{row['title']}\n" 
-                        f"{row['url']}\n\n" ) 
-            
+            message += (
+                f"{row['title']}\n"
+                f"{row['url']}\n\n"
+            )
+
         send_discord(message)
 
-        print() 
-        print("=" * 50) 
-        print(message) 
+        print()
+        print("=" * 50)
+        print(message)
         print("=" * 50)
 
-# Update baseline after comparison
+# No new jobs anywhere
+
+if not found_new_jobs:
+
+    send_discord(
+        "--------------------------------------------------\n"
+        f"📅 {today}\n\n"
+        "🐭 鼠奇奇今天检查完毕\n\n"
+        "没有发现新工作。"
+    )
+
+# Update baseline
 
 for file in os.listdir("data"):
 
