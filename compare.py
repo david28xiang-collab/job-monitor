@@ -35,11 +35,14 @@ for file in os.listdir("data"):
         new_jobs = current[ current["job_id"] .astype(str) .isin(new_ids) ]
         company = new_jobs.iloc[0]["company"]
 
-        message = ( f"鼠奇奇给你找到了新工作: \n{company}\n\n" )
+
+        message = "-" * 50
+        message += ( f"🐭 **鼠奇奇给你找到了新工作**: \n{company}\n\n" )
 
         for _, row in new_jobs.iterrows(): 
             message += ( f"{row['title']}\n" 
                         f"{row['url']}\n\n" ) 
+            
         send_discord(message)
 
         print() 
