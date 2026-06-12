@@ -15,4 +15,14 @@ companies:
   - name: Cornerstone Research
     type: icims
     url: https://ug-chire.icims.com/jobs/search
+
+  - name: Econic Partners
+    type: workday
+    api_url: https://econicpartners.wd501.myworkdayjobs.com/wday/cxs/econicpartners/econicpartnerscareers/jobs
+    career_path: econicpartnerscareers
+
+  - name: Compass Lexecon
+    type: workday
+    api_url: https://fticonsulting.wd108.myworkdayjobs.com/wday/cxs/fticonsulting/CompassLexeconCareers/jobs
+    career_path: CompassLexeconCareers
     

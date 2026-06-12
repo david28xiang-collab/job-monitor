@@ -27,6 +27,16 @@ for company in config["companies"]:
             company["url"],
             company["name"]
         )
+    
+    elif company_type == "workday":
+        
+        from workday import fetch_workday
+
+        jobs = fetch_workday(
+            company["api_url"],
+            company["name"],
+            company["career_path"]
+        )
 
     else:
 
