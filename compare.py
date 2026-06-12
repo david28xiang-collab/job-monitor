@@ -33,7 +33,7 @@ for file in os.listdir("data"):
     if len(new_ids) > 0:
 
         new_jobs = current[ current["job_id"] .astype(str) .isin(new_ids) ]
-        company = ( file.replace(".csv", "") .replace("_", " ") .title() )
+        company = new_jobs.iloc[0]["company"]
 
         message = ( f"鼠奇奇给你找到了新工作: \n{company}\n\n" )
 
