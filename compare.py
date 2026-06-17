@@ -46,7 +46,7 @@ for file in os.listdir("data"):
         company = new_jobs.iloc[0]["company"]
 
         message = (
-            "--------------------------------------------------\n"
+            "-----------------------------------------------\n"
             f"📅 {today}\n\n"
             f"🐭 **鼠奇奇给你找到了新工作**\n"
             f"🏢 {company}\n\n"
