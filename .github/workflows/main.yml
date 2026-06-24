@@ -10,6 +10,9 @@ jobs:
   monitor:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
 
@@ -20,3 +23,16 @@ jobs:
       - run: pip install pandas requests pyyaml beautifulsoup4
 
       - run: python daily_run.py
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+
+      - name: Commit updated baseline
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add baseline/
+
+          git diff --staged --quiet || git commit -m "Update baseline"
+
+          git push
