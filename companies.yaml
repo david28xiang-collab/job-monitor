@@ -29,4 +29,8 @@ companies:
   - name: Brattle Group
     type: greenhouse
     board: thebrattlegroup
+
+  - name: Point72
+    type: greenhouse
+    board: point72
     
