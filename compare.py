@@ -28,6 +28,9 @@ for file in os.listdir("data"):
         continue
 
     current = pd.read_csv(current_path)
+    if os.path.getsize(current_path) == 0:
+        print(f"Skipping empty file: {current_path}")
+        continue
     baseline = pd.read_csv(baseline_path)
 
     current_ids = set(current["job_id"].astype(str))

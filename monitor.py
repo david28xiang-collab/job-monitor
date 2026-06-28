@@ -47,6 +47,14 @@ for company in config["companies"]:
 
         continue
 
+    if not jobs:
+
+        print(
+            f"No jobs found for {company['name']}"
+        )
+
+        continue
+
     company_jobs[company["name"]] = jobs
 
 os.makedirs("data", exist_ok=True)
