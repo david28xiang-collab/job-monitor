@@ -16,6 +16,9 @@ for file in os.listdir("data"):
     current_path = f"data/{file}"
     baseline_path = f"baseline/{file}"
 
+    print(f"Checking {file}")
+
+    # First time seeing this company
     if not os.path.exists(baseline_path):
 
         print(f"Creating baseline for {file}")
@@ -27,11 +30,24 @@ for file in os.listdir("data"):
 
         continue
 
-    current = pd.read_csv(current_path)
+    # Skip empty current CSV
     if os.path.getsize(current_path) == 0:
-        print(f"Skipping empty file: {current_path}")
+
+        print(f"Skipping empty current file: {current_path}")
         continue
-    baseline = pd.read_csv(baseline_path)
+
+    # Skip empty baseline CSV
+    if os.path.getsize(baseline_path) == 0:
+
+        print(f"Skipping empty baseline file: {baseline_path}")
+        continue
+
+    try:
+        current = pd.read_csv(current_path)
+        baseline = pd.read_csv(baseline_path)
+    except pd.errors.EmptyDataError:
+        print(f"Skipping invalid CSV: {file}")
+        continue
 
     current_ids = set(current["job_id"].astype(str))
     baseline_ids = set(baseline["job_id"].astype(str))
@@ -73,21 +89,34 @@ for file in os.listdir("data"):
 
 if not found_new_jobs:
 
-    send_discord(
-        "--------------------------------------------------\n"
+    message = (
+        "-----------------------------------------------\n"
         f"📅 {today}\n\n"
         "🐭 鼠奇奇今天检查完毕\n\n"
         "没有发现新工作。"
     )
 
+    send_discord(message)
+
+    print(message)
+
 # Update baseline
+
+os.makedirs("baseline", exist_ok=True)
 
 for file in os.listdir("data"):
 
-    if file.endswith(".csv"):
+    if not file.endswith(".csv"):
+        continue
 
-        shutil.copy(
-            f"data/{file}",
-            f"baseline/{file}"
-        )
-        
+    current_path = f"data/{file}"
+    baseline_path = f"baseline/{file}"
+
+    # Don't overwrite with an empty file
+    if os.path.getsize(current_path) == 0:
+        continue
+
+    shutil.copy(
+        current_path,
+        baseline_path
+    )
