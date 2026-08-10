@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '0 13 * * *'
+    - cron: "0 13 * * *"
 
 jobs:
   monitor:
@@ -20,9 +20,12 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install pandas requests pyyaml beautifulsoup4
+      - name: Install dependencies
+        run: |
+          pip install pandas requests pyyaml beautifulsoup4 curl_cffi
 
-      - run: python daily_run.py
+      - name: Run job monitor
+        run: python daily_run.py
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
 
