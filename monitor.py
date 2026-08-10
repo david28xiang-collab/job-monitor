@@ -2,6 +2,7 @@ import os
 import yaml
 import pandas as pd
 
+from citadel import fetch_citadel_jobs
 from greenhouse import fetch_greenhouse
 from icims import fetch_icims
 from workday import fetch_workday
@@ -80,6 +81,12 @@ for company in config["companies"]:
         elif company_type == "millennium":
 
             jobs = fetch_millennium_jobs()
+        # ------------------------------------------
+        # Millennium / Eightfold
+        # ------------------------------------------
+        elif company_type == "citadel":
+
+            jobs = fetch_citadel_jobs()
 
 
         # ------------------------------------------

@@ -36,4 +36,7 @@ companies:
 
   - name: Millennium
     type: millennium
+
+  - name: Citadel
+    type: citadel
     
