@@ -4,77 +4,155 @@ import pandas as pd
 
 from greenhouse import fetch_greenhouse
 from icims import fetch_icims
+from workday import fetch_workday
+from millennium import fetch_millennium_jobs
+
 
 company_jobs = {}
+
+
+# ==================================================
+# Load company configuration
+# ==================================================
 
 with open("companies.yaml", "r") as f:
     config = yaml.safe_load(f)
 
+
+# ==================================================
+# Fetch jobs for each company
+# ==================================================
+
 for company in config["companies"]:
 
     company_type = company.get("type")
+    company_name = company["name"]
 
-    if company_type == "greenhouse":
+    print(
+        f"\nFetching {company_name} "
+        f"({company_type})..."
+    )
 
-        jobs = fetch_greenhouse(
-            company["board"],
-            company["name"]
-        )
 
-    elif company_type == "icims":
+    try:
 
-        jobs = fetch_icims(
-            company["url"],
-            company["name"]
-        )
-    
-    elif company_type == "workday":
-        
-        from workday import fetch_workday
+        # ------------------------------------------
+        # Greenhouse
+        # ------------------------------------------
 
-        jobs = fetch_workday(
-            company["api_url"],
-            company["name"],
-            company["career_path"]
-        )
+        if company_type == "greenhouse":
 
-    else:
+            jobs = fetch_greenhouse(
+                company["board"],
+                company_name,
+            )
+
+
+        # ------------------------------------------
+        # iCIMS
+        # ------------------------------------------
+
+        elif company_type == "icims":
+
+            jobs = fetch_icims(
+                company["url"],
+                company_name,
+            )
+
+
+        # ------------------------------------------
+        # Workday
+        # ------------------------------------------
+
+        elif company_type == "workday":
+
+            jobs = fetch_workday(
+                company["api_url"],
+                company_name,
+                company["career_path"],
+            )
+
+
+        # ------------------------------------------
+        # Millennium / Eightfold
+        # ------------------------------------------
+
+        elif company_type == "millennium":
+
+            jobs = fetch_millennium_jobs()
+
+
+        # ------------------------------------------
+        # Unknown scraper type
+        # ------------------------------------------
+
+        else:
+
+            print(
+                f"Skipping {company_name} "
+                f"(unknown type: {company_type})"
+            )
+
+            continue
+
+
+    except Exception as e:
 
         print(
-            f"Skipping {company['name']} "
-            f"(unknown type: {company_type})"
+            f"Failed to fetch {company_name}: {e}"
         )
 
         continue
+
+
+    # ==================================================
+    # Do not write empty results
+    # ==================================================
 
     if not jobs:
 
         print(
-            f"No jobs found for {company['name']}"
+            f"No jobs found for {company_name}"
         )
 
         continue
 
-    company_jobs[company["name"]] = jobs
 
-os.makedirs("data", exist_ok=True)
+    company_jobs[company_name] = jobs
+
+
+# ==================================================
+# Save jobs
+# ==================================================
+
+os.makedirs(
+    "data",
+    exist_ok=True,
+)
+
 
 for company_name, jobs in company_jobs.items():
 
-    df = pd.DataFrame(jobs)
+    df = pd.DataFrame(
+        jobs
+    )
 
     filename = (
-        company_name.lower()
+        company_name
+        .lower()
         .replace(" ", "_")
     )
 
+    output_path = (
+        f"data/{filename}.csv"
+    )
+
     df.to_csv(
-        f"data/{filename}.csv",
-        index=False
+        output_path,
+        index=False,
     )
 
     print(
-        f"Saved {len(df)} jobs for {company_name}"
+        f"Saved {len(df)} jobs "
+        f"for {company_name}"
     )
-
-

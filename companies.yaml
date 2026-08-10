@@ -33,4 +33,7 @@ companies:
   - name: Point72
     type: greenhouse
     board: point72
+
+  - name: Millennium
+    type: millennium
     
