@@ -3,6 +3,7 @@ import os
 import shutil
 import pandas as pd
 from discord_notify import send_discord
+from filter import is_target_location
 
 today = datetime.now().strftime("%Y-%m-%d")
 
@@ -55,12 +56,22 @@ for file in os.listdir("data"):
     new_ids = current_ids - baseline_ids
 
     if len(new_ids) > 0:
-
-        found_new_jobs = True
-
         new_jobs = current[
             current["job_id"].astype(str).isin(new_ids)
         ]
+
+        if "location" in new_jobs.columns:
+            new_jobs = new_jobs[
+                new_jobs["location"].apply(is_target_location)
+            ]
+
+        if new_jobs.empty:
+            print(
+                f"No new US, Hong Kong, or China jobs in {file}"
+            )
+            continue
+
+        found_new_jobs = True
 
         company = new_jobs.iloc[0]["company"]
 
