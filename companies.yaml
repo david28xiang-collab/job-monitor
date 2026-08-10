@@ -30,6 +30,10 @@ companies:
     type: greenhouse
     board: thebrattlegroup
 
+  - name: Acadian Asset Management
+    type: greenhouse
+    board: acadianassetmanagementllc
+
   - name: Point72
     type: greenhouse
     board: point72
