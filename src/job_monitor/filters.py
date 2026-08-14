@@ -1,3 +1,6 @@
+import re
+
+
 US_LOCATIONS = {
     "greenwich",
     "houston",
@@ -9,7 +12,8 @@ US_LOCATIONS = {
     "san francisco",
     "los angeles",
     "washington",
-    "united states"
+    "united states",
+    "us",
 }
 
 CHINA_LOCATIONS = {
@@ -34,12 +38,19 @@ TARGET_LOCATIONS = (
 
 
 def is_target_location(location):
-    if not location:
+    if not isinstance(location, str) or not location.strip():
         return True
 
-    locations = {
-        item.strip().casefold()
-        for item in location.split(",")
-    }
+    # Normalize formats such as "US-MA-Boston", "Boston, MA", and
+    # pipe-separated iCIMS location lists into searchable words.
+    normalized_location = re.sub(
+        r"[^a-z0-9]+",
+        " ",
+        location.casefold(),
+    ).strip()
+    padded_location = f" {normalized_location} "
 
-    return bool(locations & TARGET_LOCATIONS)
+    return any(
+        f" {target} " in padded_location
+        for target in TARGET_LOCATIONS
+    )
