@@ -1,5 +1,11 @@
 from datetime import datetime
+from pathlib import Path
 import shutil
+import sys
+
+# Support `python src/job_monitor/compare.py` in addition to package execution.
+if __package__ in {None, ""}:
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import pandas as pd
 
