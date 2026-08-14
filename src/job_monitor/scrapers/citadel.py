@@ -1,6 +1,14 @@
-from curl_cffi import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
+
+try:
+    from curl_cffi import requests
+except ImportError:
+    import requests
+
+    SUPPORTS_IMPERSONATION = False
+else:
+    SUPPORTS_IMPERSONATION = True
 
 
 BASE_URL = "https://www.citadel.com"
@@ -29,11 +37,12 @@ def fetch_citadel_page(page_number):
         )
 
 
-    response = requests.get(
-        url,
-        impersonate="chrome",
-        timeout=30,
-    )
+    request_options = {"timeout": 30}
+
+    if SUPPORTS_IMPERSONATION:
+        request_options["impersonate"] = "chrome"
+
+    response = requests.get(url, **request_options)
 
     response.raise_for_status()
 
@@ -317,4 +326,3 @@ def fetch_citadel_jobs():
 
 
     return all_jobs
-

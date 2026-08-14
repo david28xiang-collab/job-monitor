@@ -1,18 +1,14 @@
-import subprocess
+"""Backward-compatible launcher for running from the repository root."""
+
+from pathlib import Path
 import sys
 
 
-print("Running monitor...")
+SOURCE_DIR = Path(__file__).resolve().parent / "src"
+sys.path.insert(0, str(SOURCE_DIR))
 
-subprocess.run(
-    [sys.executable, "monitor.py"],
-    check=True
-)
+from job_monitor.daily_run import main  # noqa: E402
 
 
-print("Running compare...")
-
-subprocess.run(
-    [sys.executable, "compare.py"],
-    check=True
-)
+if __name__ == "__main__":
+    main()

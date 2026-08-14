@@ -1,12 +1,11 @@
 import csv
-from pathlib import Path
-
-from filter import is_target_location
+from job_monitor.filters import is_target_location
+from job_monitor.paths import DATA_DIR
 
 
 DATASET = "cornerstone_research.csv"
 
-DATA_FILE = Path(__file__).resolve().parent / "data" / DATASET
+DATA_FILE = DATA_DIR / DATASET
 
 
 def test_location_flag():
