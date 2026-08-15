@@ -9,7 +9,7 @@ if __package__ in {None, ""}:
 
 import pandas as pd
 
-from job_monitor.filters import is_target_location
+from job_monitor.filters import is_target_location, is_target_role
 from job_monitor.notifications import send_discord
 from job_monitor.paths import BASELINE_DIR, DATA_DIR
 
@@ -60,9 +60,15 @@ def main():
                 new_jobs["location"].apply(is_target_location)
             ]
 
+        if "title" in new_jobs.columns:
+            new_jobs = new_jobs[
+                new_jobs["title"].apply(is_target_role)
+            ]
+
         if new_jobs.empty:
             print(
-                f"No new US, Hong Kong, or China jobs in {filename}"
+                "No new matching location and role jobs "
+                f"in {filename}"
             )
             continue
 
