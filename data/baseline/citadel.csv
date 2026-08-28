@@ -1,7 +1,7 @@
 company,job_id,title,location,url
 Citadel,us-physical-gas-specialist,US Physical Gas Specialist,"Greenwich, Houston",https://www.citadel.com/careers/details/us-physical-gas-specialist/
 Citadel,trader-fixed-income-macro-intern-us,Trader: Fixed Income & Macro – Intern (US),"Greenwich, Miami, New York",https://www.citadel.com/careers/details/trader-fixed-income-macro-intern-us/
-Citadel,quantitative-researcher-phd-graduate-europe,Quantitative Researcher – PhD Graduate (Europe),"Dublin, London, Zurich",https://www.citadel.com/careers/details/quantitative-researcher-phd-graduate-europe/
+Citadel,trader-power-renewables-trader-flexpower-a-citadel-company-university-graduate-emea,Trader: Power & Renewables Trader – FlexPower (a Citadel company)  – University Graduate (EMEA),Hamburg,https://www.citadel.com/careers/details/trader-power-renewables-trader-flexpower-a-citadel-company-university-graduate-emea/
 Citadel,software-engineer-intern-europe,Software Engineer – Intern (Europe),London,https://www.citadel.com/careers/details/software-engineer-intern-europe/
 Citadel,software-engineer-university-graduate-us,Software Engineer – University Graduate (US),"Greenwich, Houston, Miami, New York",https://www.citadel.com/careers/details/software-engineer-university-graduate-us/
 Citadel,software-engineer-intern-us,Software Engineer – Intern (US),"Greenwich, Houston, Miami, New York",https://www.citadel.com/careers/details/software-engineer-intern-us/
@@ -13,6 +13,7 @@ Citadel,quantitative-researcher-phd-graduate-us,Quantitative Researcher – PhD 
 Citadel,quantitative-researcher-phd-intern-asia,Quantitative Researcher – PhD Intern (Asia),"Hong Kong, Singapore",https://www.citadel.com/careers/details/quantitative-researcher-phd-intern-asia/
 Citadel,sector-data-analyst-intern-asia,Sector Data Analyst – Intern (Asia),"Hong Kong, Singapore",https://www.citadel.com/careers/details/sector-data-analyst-intern-asia/
 Citadel,recruiting-coordinator-contract,Recruiting Coordinator (Contract),"London, Miami, New York",https://www.citadel.com/careers/details/recruiting-coordinator-contract/
+Citadel,quantitative-researcher-phd-graduate-europe,Quantitative Researcher – PhD Graduate (Europe),"Dublin, London, Zurich",https://www.citadel.com/careers/details/quantitative-researcher-phd-graduate-europe/
 Citadel,sector-data-scientist-2027-intern-us,Sector Data Scientist – 2027 Intern (US),New York,https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/
 Citadel,sector-data-analyst-intern-europe,Sector Data Analyst – Intern (Europe),London,https://www.citadel.com/careers/details/sector-data-analyst-intern-europe/
 Citadel,sector-data-scientist-central-team,"Sector Data Scientist, Central Team",New York,https://www.citadel.com/careers/details/sector-data-scientist-central-team/
@@ -21,9 +22,9 @@ Citadel,software-engineer-university-graduate-europe,Software Engineer – Unive
 Citadel,quantitative-trader-equity-quantitative-research-intern-us,Quantitative Trader: Equity Quantitative Research – Intern (US),"Greenwich, Miami, New York",https://www.citadel.com/careers/details/quantitative-trader-equity-quantitative-research-intern-us/
 Citadel,quantitative-trader-equity-quantitative-research-university-graduate-us,Quantitative Trader: Equity Quantitative Research – University Graduate (US),New York,https://www.citadel.com/careers/details/quantitative-trader-equity-quantitative-research-university-graduate-us/
 Citadel,software-engineer-intern-asia,Software Engineer – Intern (Asia),"Hong Kong, Singapore",https://www.citadel.com/careers/details/software-engineer-intern-asia/
-Citadel,quantitative-research-analyst-intern-bs-ms-asia,Quantitative Research Analyst Intern – BS/MS (Asia),"Hong Kong, Singapore",https://www.citadel.com/careers/details/quantitative-research-analyst-intern-bs-ms-asia/
 Citadel,machine-learning-researcher-phd-intern-asia,Machine Learning Researcher – PhD Intern (Asia),"Hong Kong, Singapore",https://www.citadel.com/careers/details/machine-learning-researcher-phd-intern-asia/
-Citadel,quantitative-research-analyst-university-graduate-europe,Quantitative Research Analyst  – University Graduate (Europe),"London, Zurich",https://www.citadel.com/careers/details/quantitative-research-analyst-university-graduate-europe/
+Citadel,quantitative-developer-data-strategies-group,Quantitative Developer – Data Strategies Group,New York,https://www.citadel.com/careers/details/quantitative-developer-data-strategies-group/
+Citadel,quantitative-research-analyst-intern-bs-ms-asia,Quantitative Research Analyst Intern – BS/MS (Asia),"Hong Kong, Singapore",https://www.citadel.com/careers/details/quantitative-research-analyst-intern-bs-ms-asia/
 Citadel,machine-learning-researcher-phd-intern-us,Machine Learning Researcher – PhD Intern (US),"Greenwich, Houston, Miami, New York",https://www.citadel.com/careers/details/machine-learning-researcher-phd-intern-us/
 Citadel,quantitative-research-engineer-phd-intern-us,Quantitative Research Engineer – PhD Intern (US),"Greenwich, Houston, Miami, New York",https://www.citadel.com/careers/details/quantitative-research-engineer-phd-intern-us/
 Citadel,quantitative-research-analyst-intern-us,Quantitative Research Analyst – Intern (US),"Greenwich, Miami, New York",https://www.citadel.com/careers/details/quantitative-research-analyst-intern-us/
@@ -32,7 +33,7 @@ Citadel,quantitative-research-analyst-intern-bs-ms-europe,Quantitative Research 
 Citadel,quantitative-researcher-data-strategies-group,Quantitative Researcher – Data Strategies Group,New York,https://www.citadel.com/careers/details/quantitative-researcher-data-strategies-group/
 Citadel,quantitative-research-engineer-phd-intern-europe,Quantitative Research Engineer – PHD Intern (Europe),"London, Zurich",https://www.citadel.com/careers/details/quantitative-research-engineer-phd-intern-europe/
 Citadel,quantitative-research-analyst-university-graduate-asia,Quantitative Research Analyst  – University Graduate (Asia),"Hong Kong, Singapore",https://www.citadel.com/careers/details/quantitative-research-analyst-university-graduate-asia/
-Citadel,quantitative-developer-data-strategies-group,Quantitative Developer – Data Strategies Group,New York,https://www.citadel.com/careers/details/quantitative-developer-data-strategies-group/
+Citadel,quantitative-research-analyst-university-graduate-europe,Quantitative Research Analyst  – University Graduate (Europe),"London, Zurich",https://www.citadel.com/careers/details/quantitative-research-analyst-university-graduate-europe/
 Citadel,operations-analyst-intern-europe,Operations Analyst – Intern (Europe),London,https://www.citadel.com/careers/details/operations-analyst-intern-europe/
 Citadel,operations-intern-asia,Operations – Intern (Asia),Singapore,https://www.citadel.com/careers/details/operations-intern-asia/
 Citadel,machine-learning-researcher-phd-graduate-us,Machine Learning Researcher – PhD Graduate (US),"Greenwich, Houston, Miami, New York",https://www.citadel.com/careers/details/machine-learning-researcher-phd-graduate-us/
