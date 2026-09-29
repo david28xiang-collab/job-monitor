@@ -1,5 +1,6 @@
 company,job_id,title,location,url
 Point72,8726366002,2026 Point72 Academy National Case Competition - US,United States,https://boards.greenhouse.io/point72/jobs/8726366002?gh_jid=8726366002
+Point72,8845395002,2027 Point72 Academy Spring Insight Programme – UK,"London, UK",https://boards.greenhouse.io/point72/jobs/8845395002?gh_jid=8845395002
 Point72,8250290002,Academy Senior Recruiter,"New York, NY",https://boards.greenhouse.io/point72/jobs/8250290002?gh_jid=8250290002
 Point72,8560137002,Access and Identity Management - Business Analyst,"Bengaluru, India ",https://boards.greenhouse.io/point72/jobs/8560137002?gh_jid=8560137002
 Point72,8634189002,Administrative Assistant,Hong Kong,https://boards.greenhouse.io/point72/jobs/8634189002?gh_jid=8634189002
@@ -12,7 +13,6 @@ Point72,8754801002,"Assistant General Counsel, Asia Pacific",Hong Kong,https://b
 Point72,8375256002,"Associate, Payroll  ","Bengaluru, India",https://boards.greenhouse.io/point72/jobs/8375256002?gh_jid=8375256002
 Point72,8660807002,AV Support Specialist,"Hong Kong, Japan, Singapore, Central, Singapore",https://boards.greenhouse.io/point72/jobs/8660807002?gh_jid=8660807002
 Point72,8760806002,Back Office Operations Senior Associate,"Bengaluru, India",https://boards.greenhouse.io/point72/jobs/8760806002?gh_jid=8760806002
-Point72,8678094002,Benefits Analyst,"New York, NY or Stamford, CT",https://boards.greenhouse.io/point72/jobs/8678094002?gh_jid=8678094002
 Point72,8466850002,Business Intelligence Analyst,"Stamford, CT",https://boards.greenhouse.io/point72/jobs/8466850002?gh_jid=8466850002
 Point72,8637443002,"Business Manager, KEPL",New York,https://boards.greenhouse.io/point72/jobs/8637443002?gh_jid=8637443002
 Point72,8582756002,"Business Manager, Technology","New York, New York",https://boards.greenhouse.io/point72/jobs/8582756002?gh_jid=8582756002
@@ -32,12 +32,12 @@ Point72,7045938002,Cubist Data Scientist,New York,https://boards.greenhouse.io/p
 Point72,7045996002,Cubist Portfolio Manager,Singapore,https://boards.greenhouse.io/point72/jobs/7045996002?gh_jid=7045996002
 Point72,7046005002,Cubist Portfolio Manager,New York,https://boards.greenhouse.io/point72/jobs/7046005002?gh_jid=7046005002
 Point72,7045941002,Cubist Portfolio Manager,"Dubai, Paris, Hong Kong, London, Sydney",https://boards.greenhouse.io/point72/jobs/7045941002?gh_jid=7045941002
-Point72,7045987002,Cubist Quantitative Researcher,"Chicago, New York, Seattle ",https://boards.greenhouse.io/point72/jobs/7045987002?gh_jid=7045987002
-Point72,7318012002,Cubist Quantitative Researcher,"Dubai, London, Paris, Hong Kong, Sydney, Toronto",https://boards.greenhouse.io/point72/jobs/7318012002?gh_jid=7318012002
-Point72,7666631002,Cubist Quantitative Researcher,Hong Kong,https://boards.greenhouse.io/point72/jobs/7666631002?gh_jid=7666631002
-Point72,7318005002,Cubist Quantitative Researcher,New York,https://boards.greenhouse.io/point72/jobs/7318005002?gh_jid=7318005002
 Point72,7045936002,Cubist Quantitative Researcher,"Dubai, London, Paris, Hong Kong, Sydney, Toronto, Tokyo",https://boards.greenhouse.io/point72/jobs/7045936002?gh_jid=7045936002
 Point72,7045980002,Cubist Quantitative Researcher,Singapore,https://boards.greenhouse.io/point72/jobs/7045980002?gh_jid=7045980002
+Point72,7318012002,Cubist Quantitative Researcher,"Dubai, London, Paris, Hong Kong, Sydney, Toronto",https://boards.greenhouse.io/point72/jobs/7318012002?gh_jid=7318012002
+Point72,7318005002,Cubist Quantitative Researcher,New York,https://boards.greenhouse.io/point72/jobs/7318005002?gh_jid=7318005002
+Point72,7666631002,Cubist Quantitative Researcher,Hong Kong,https://boards.greenhouse.io/point72/jobs/7666631002?gh_jid=7666631002
+Point72,7045987002,Cubist Quantitative Researcher,"Chicago, New York, Seattle ",https://boards.greenhouse.io/point72/jobs/7045987002?gh_jid=7045987002
 Point72,7045995002,Cubist Senior Data Scientist,Singapore,https://boards.greenhouse.io/point72/jobs/7045995002?gh_jid=7045995002
 Point72,7045979002,Cubist Senior Data Scientist,New York,https://boards.greenhouse.io/point72/jobs/7045979002?gh_jid=7045979002
 Point72,8488671002,Database Support Engineer,"Bengaluru, India",https://boards.greenhouse.io/point72/jobs/8488671002?gh_jid=8488671002
@@ -64,6 +64,7 @@ Point72,8780031002,Fund Reporting Analyst,Warsaw,https://boards.greenhouse.io/po
 Point72,8399360002,GenAI Security Engineer,"New York, NY",https://boards.greenhouse.io/point72/jobs/8399360002?gh_jid=8399360002
 Point72,8555522002,Global Technology Services Engineer    ,"London, UK",https://boards.greenhouse.io/point72/jobs/8555522002?gh_jid=8555522002
 Point72,8414212002,"Head of Compliance, Hong Kong",Singapore,https://boards.greenhouse.io/point72/jobs/8414212002?gh_jid=8414212002
+Point72,8621332002,Head Of Treasury Technology,"New York, NY",https://boards.greenhouse.io/point72/jobs/8621332002?gh_jid=8621332002
 Point72,8511590002,HR Analyst,"Bengaluru, India ",https://boards.greenhouse.io/point72/jobs/8511590002?gh_jid=8511590002
 Point72,8580591002,HR Business Partner,"New York, NY and Stamford, CT",https://boards.greenhouse.io/point72/jobs/8580591002?gh_jid=8580591002
 Point72,8488737002,Identity & Privileged Governance Analyst,"New York, NY",https://boards.greenhouse.io/point72/jobs/8488737002?gh_jid=8488737002
@@ -93,11 +94,12 @@ Point72,7798698002,Market Data Solutions Specialist,New York,https://boards.gree
 Point72,6656054002,Market Intelligence Emerging Talent Network,"New York, NY",https://boards.greenhouse.io/point72/jobs/6656054002?gh_jid=6656054002
 Point72,8384470002,Microstructure Quantitative Researcher,New York,https://boards.greenhouse.io/point72/jobs/8384470002?gh_jid=8384470002
 Point72,8479488002,Mission Control Specialist,"Bengaluru, India ",https://boards.greenhouse.io/point72/jobs/8479488002?gh_jid=8479488002
+Point72,8468870002,Mortgage Valuation Specialist,New York,https://boards.greenhouse.io/point72/jobs/8468870002?gh_jid=8468870002
 Point72,8599907002,Network Engineer,"New York, NY",https://boards.greenhouse.io/point72/jobs/8599907002?gh_jid=8599907002
 Point72,8773520002,Network Engineering Manager,United States,https://boards.greenhouse.io/point72/jobs/8773520002?gh_jid=8773520002
 Point72,8773509002,Network Security  Engineer,United States,https://boards.greenhouse.io/point72/jobs/8773509002?gh_jid=8773509002
-Point72,8556046002,Network Support Engineer,India,https://boards.greenhouse.io/point72/jobs/8556046002?gh_jid=8556046002
 Point72,8576951002,Network Support Engineer,"New York, NY; Stamford, CT",https://boards.greenhouse.io/point72/jobs/8576951002?gh_jid=8576951002
+Point72,8556046002,Network Support Engineer,India,https://boards.greenhouse.io/point72/jobs/8556046002?gh_jid=8556046002
 Point72,8794058002,"Network Team Lead, Systematic Trading Infrastructure",New York,https://boards.greenhouse.io/point72/jobs/8794058002?gh_jid=8794058002
 Point72,8018850002,NLP Engineer,New York,https://boards.greenhouse.io/point72/jobs/8018850002?gh_jid=8018850002
 Point72,7661997002,NLP Researcher,New York,https://boards.greenhouse.io/point72/jobs/7661997002?gh_jid=7661997002
@@ -106,7 +108,6 @@ Point72,8548455002,Platform Engineer,Warsaw,https://boards.greenhouse.io/point72
 Point72,8467512002,Platform Project Manager,New York,https://boards.greenhouse.io/point72/jobs/8467512002?gh_jid=8467512002
 Point72,8755418002,P&L Reconciliation and Analysis Associate,"Bengaluru, India ",https://boards.greenhouse.io/point72/jobs/8755418002?gh_jid=8755418002
 Point72,8770359002,PM Administrative Assistant ,"New York, NY",https://boards.greenhouse.io/point72/jobs/8770359002?gh_jid=8770359002
-Point72,8618569002,PM Administrative Assistant ,"San Francisco, CA",https://boards.greenhouse.io/point72/jobs/8618569002?gh_jid=8618569002
 Point72,8499113002,Point72 Academy 2026-2027 Investment Analyst Program for Experienced Professionals - US,"Chicago, Florida, New York, San Francisco",https://boards.greenhouse.io/point72/jobs/8499113002?gh_jid=8499113002
 Point72,8538913002,Point72 Academy 2026 Investment Analyst Program for Experienced Professionals – Hong Kong,Hong Kong,https://boards.greenhouse.io/point72/jobs/8538913002?gh_jid=8538913002
 Point72,8539271002,Point72 Academy 2026 Investment Analyst Program for Experienced Professionals – Japan,Tokyo,https://boards.greenhouse.io/point72/jobs/8539271002?gh_jid=8539271002
@@ -127,8 +128,8 @@ Point72,8551296002,QA Engineer,"Bengaluru, India ",https://boards.greenhouse.io/
 Point72,7297616002,Quantitative Analyst - CIO Office,New York,https://boards.greenhouse.io/point72/jobs/7297616002?gh_jid=7297616002
 Point72,7297622002,Quantitative Analyst / Software Developer,New York,https://boards.greenhouse.io/point72/jobs/7297622002?gh_jid=7297622002
 Point72,8745810002,"Quantitative Analyst, Structured Products Investment Team","New York, NY",https://boards.greenhouse.io/point72/jobs/8745810002?gh_jid=8745810002
-Point72,7297511002,Quantitative Developer,Chicago,https://boards.greenhouse.io/point72/jobs/7297511002?gh_jid=7297511002
 Point72,8191564002,Quantitative Developer,London,https://boards.greenhouse.io/point72/jobs/8191564002?gh_jid=8191564002
+Point72,7297511002,Quantitative Developer,Chicago,https://boards.greenhouse.io/point72/jobs/7297511002?gh_jid=7297511002
 Point72,7297653002,Quantitative Developer - CIO Office,New York,https://boards.greenhouse.io/point72/jobs/7297653002?gh_jid=7297653002
 Point72,8561446002,"Quantitative Developer, Trading Research",Warsaw,https://boards.greenhouse.io/point72/jobs/8561446002?gh_jid=8561446002
 Point72,7046014002,Quantitative Finance Researcher,Taiwan,https://boards.greenhouse.io/point72/jobs/7046014002?gh_jid=7046014002
@@ -139,12 +140,12 @@ Point72,7297513002,Quantitative Researcher - Machine Learning ,New York,https://
 Point72,7297612002,Quantitative Researcher - Macro,New York,https://boards.greenhouse.io/point72/jobs/7297612002?gh_jid=7297612002
 Point72,7297625002,Quantitative Researcher - Systematic Credit,"Chicago, New York",https://boards.greenhouse.io/point72/jobs/7297625002?gh_jid=7297625002
 Point72,7297643002,"Quantitative Researcher, Trading Research ",New York,https://boards.greenhouse.io/point72/jobs/7297643002?gh_jid=7297643002
-Point72,8036928002,Quantitative Software Developer,New York,https://boards.greenhouse.io/point72/jobs/8036928002?gh_jid=8036928002
+Point72,7825863002,Quantitative Software Developer,New York,https://boards.greenhouse.io/point72/jobs/7825863002?gh_jid=7825863002
 Point72,8604288002,Quantitative Software Developer,Taiwan,https://boards.greenhouse.io/point72/jobs/8604288002?gh_jid=8604288002
 Point72,8032153002,Quantitative Software Developer,New York,https://boards.greenhouse.io/point72/jobs/8032153002?gh_jid=8032153002
-Point72,7825863002,Quantitative Software Developer,New York,https://boards.greenhouse.io/point72/jobs/7825863002?gh_jid=7825863002
-Point72,8782787002,"Quant Library Developer, Macro Technology",United States,https://boards.greenhouse.io/point72/jobs/8782787002?gh_jid=8782787002
+Point72,8036928002,Quantitative Software Developer,New York,https://boards.greenhouse.io/point72/jobs/8036928002?gh_jid=8036928002
 Point72,8408288002,"Quant Library Developer, Macro Technology",New York; London,https://boards.greenhouse.io/point72/jobs/8408288002?gh_jid=8408288002
+Point72,8782787002,"Quant Library Developer, Macro Technology",United States,https://boards.greenhouse.io/point72/jobs/8782787002?gh_jid=8782787002
 Point72,8004302002,"Quant Researcher, Power Dispatch Modeling",Stamford/New York,https://boards.greenhouse.io/point72/jobs/8004302002?gh_jid=8004302002
 Point72,8239406002,Reference Data Engineer,"Bengaluru, India",https://boards.greenhouse.io/point72/jobs/8239406002?gh_jid=8239406002
 Point72,8602058002,Regulatory Reporting Associate,Warsaw,https://boards.greenhouse.io/point72/jobs/8602058002?gh_jid=8602058002
@@ -152,8 +153,8 @@ Point72,8630686002,Regulatory Reporting Manager,Warsaw,https://boards.greenhouse
 Point72,8374726002,Research Analyst,Singapore,https://boards.greenhouse.io/point72/jobs/8374726002?gh_jid=8374726002
 Point72,8531773002,"Research Engineer, Knowledge Graph Intelligence","New York, NY",https://boards.greenhouse.io/point72/jobs/8531773002?gh_jid=8531773002
 Point72,8475957002,Research Technology Support,Hong Kong,https://boards.greenhouse.io/point72/jobs/8475957002?gh_jid=8475957002
-Point72,8599906002,SDLC Engineer,"New York, NY",https://boards.greenhouse.io/point72/jobs/8599906002?gh_jid=8599906002
 Point72,8555513002,SDLC Engineer,Warsaw,https://boards.greenhouse.io/point72/jobs/8555513002?gh_jid=8555513002
+Point72,8599906002,SDLC Engineer,"New York, NY",https://boards.greenhouse.io/point72/jobs/8599906002?gh_jid=8599906002
 Point72,8396438002,SDLC Engineer,India,https://boards.greenhouse.io/point72/jobs/8396438002?gh_jid=8396438002
 Point72,7820104002,"Sector Analyst, MI-Data","New York, NY",https://boards.greenhouse.io/point72/jobs/7820104002?gh_jid=7820104002
 Point72,8056172002,"Sector Analyst, Proprietary Research","London, UK",https://boards.greenhouse.io/point72/jobs/8056172002?gh_jid=8056172002
@@ -181,13 +182,13 @@ Point72,8060321002,"Software Engineer, Macro Quant Analytics Technology",New Yor
 Point72,8377020002,"Software Engineer, Middle Office Systems","Bengaluru, India",https://boards.greenhouse.io/point72/jobs/8377020002?gh_jid=8377020002
 Point72,8428205002,"Software Engineer (.NET), Macro Middle Office","Bengaluru, India",https://boards.greenhouse.io/point72/jobs/8428205002?gh_jid=8428205002
 Point72,8568266002,"Software Engineer, Risk Technology","Bengaluru, India",https://boards.greenhouse.io/point72/jobs/8568266002?gh_jid=8568266002
-Point72,8639441002,"Software Engineer, Technology","Bengaluru, India ",https://boards.greenhouse.io/point72/jobs/8639441002?gh_jid=8639441002
 Point72,8372908002,"Software Engineer, Technology","Bengaluru, India ",https://boards.greenhouse.io/point72/jobs/8372908002?gh_jid=8372908002
+Point72,8639441002,"Software Engineer, Technology","Bengaluru, India ",https://boards.greenhouse.io/point72/jobs/8639441002?gh_jid=8639441002
 Point72,8363166002,"Software Engineer, Trading And Compliance Technology",Warsaw,https://boards.greenhouse.io/point72/jobs/8363166002?gh_jid=8363166002
 Point72,8581872002,"Software Engineer, Treasury Tech",Warsaw,https://boards.greenhouse.io/point72/jobs/8581872002?gh_jid=8581872002
-Point72,8576950002,"Software Engineer, Treasury Technology",Warsaw,https://boards.greenhouse.io/point72/jobs/8576950002?gh_jid=8576950002
-Point72,8576953002,"Software Engineer, Treasury Technology","Bengaluru, India ",https://boards.greenhouse.io/point72/jobs/8576953002?gh_jid=8576953002
 Point72,8576949002,"Software Engineer, Treasury Technology",Warsaw,https://boards.greenhouse.io/point72/jobs/8576949002?gh_jid=8576949002
+Point72,8576953002,"Software Engineer, Treasury Technology","Bengaluru, India ",https://boards.greenhouse.io/point72/jobs/8576953002?gh_jid=8576953002
+Point72,8576950002,"Software Engineer, Treasury Technology",Warsaw,https://boards.greenhouse.io/point72/jobs/8576950002?gh_jid=8576950002
 Point72,8576952002,Storage Support Engineer,"New York, NY ",https://boards.greenhouse.io/point72/jobs/8576952002?gh_jid=8576952002
 Point72,8624291002,Strategic Implementation Program Associate,United States,https://boards.greenhouse.io/point72/jobs/8624291002?gh_jid=8624291002
 Point72,8099477002,"System Engineer, Linux Technology","Bengaluru, India",https://boards.greenhouse.io/point72/jobs/8099477002?gh_jid=8099477002
