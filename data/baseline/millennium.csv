@@ -1,9 +1,11 @@
 company,job_id,title,location,department,business_unit,work_option,url,pid
+Millennium,REQ-31411,Infrastructure Relationship Manager,"New York, New York, United States of America",Information Technology,IT Infrastructure,onsite,https://career.mlp.com/careers/job/755959095033,755959095033
 Millennium,REQ-31118,Identity Security Engineer,"New York, New York, United States of America",Information Technology,IT Infrastructure,onsite,https://career.mlp.com/careers/job/755958689208,755958689208
-Millennium,REQ-31332,KDB Development Lead,"New York, New York, United States of America",Information Technology,Unknown,onsite,https://career.mlp.com/careers/job/755958979163,755958979163
 Millennium,REQ-31335,EQST UI Engineer,"New York, New York, United States of America",Trading,Unknown,onsite,https://career.mlp.com/careers/job/755958979179,755958979179
 Millennium,REQ-31326,Senior People Business Partner,"New York, New York, United States of America",Human Resources,People Business Partners,onsite,https://career.mlp.com/careers/job/755958968682,755958968682
 Millennium,REQ-31329,Executive Assistant,"East Greenwich, Rhode Island, United States of America",Trading,Equities,onsite,https://career.mlp.com/careers/job/755958972748,755958972748
+Millennium,REQ-31332,KDB Development Lead,"New York, New York, United States of America",Information Technology,Unknown,onsite,https://career.mlp.com/careers/job/755958979163,755958979163
+Millennium,REQ-31301,Technical Program Manager - Post Trade,"New York, New York, United States of America",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958937374,755958937374
 Millennium,REQ-31292,Quantitative Researcher,"New York, New York, United States of America",Risk Management,Risk Management,onsite,https://career.mlp.com/careers/job/755958934968,755958934968
 Millennium,REQ-30309,Software Engineer - Digital Assets Trading,"New York, New York, United States of America",Information Technology,FIC & Risk Technology,onsite,https://career.mlp.com/careers/job/755957819973,755957819973
 Millennium,REQ-31204,Compliance Analyst,"New York, New York, United States of America",Compliance,Compliance Surveillance Program,onsite,https://career.mlp.com/careers/job/755958799896,755958799896
@@ -13,6 +15,7 @@ Millennium,REQ-31112,People Business Partner,"New York, New York, United States 
 Millennium,REQ-31121,Third-Party Risk Management 1,"New York, New York, United States of America",Information Technology,IT Infrastructure,onsite,https://career.mlp.com/careers/job/755958689251,755958689251
 Millennium,REQ-31125,DCM Operations Lead,"New York, New York, United States of America",Information Technology,IT Infrastructure,onsite,https://career.mlp.com/careers/job/755958691121,755958691121
 Millennium,REQ-31126,Data Center MEP Engineer,"New York, New York, United States of America",Information Technology,IT Infrastructure,onsite,https://career.mlp.com/careers/job/755958691122,755958691122
+Millennium,REQ-30486,Market Connectivity Developer – External Onboarding,"New York, New York, United States of America",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958016731,755958016731
 Millennium,REQ-31066,WorldQuant Aligned Software Engineer,"New York, New York, United States of America",Information Technology,Unknown,onsite,https://career.mlp.com/careers/job/755958623825,755958623825
 Millennium,REQ-31065,Risk Controls Manager,"New York, New York, United States of America",Risk Management,Risk Management,onsite,https://career.mlp.com/careers/job/755958795972,755958795972
 Millennium,REQ-30852,Global Structured Capital Markets Senior Associate,"New York, New York, United States of America",Execution Services,Capital Markets,onsite,https://career.mlp.com/careers/job/755958589032,755958589032
@@ -22,12 +25,13 @@ Millennium,REQ-30483,Portfolio Researcher,"New York, New York, United States of 
 Millennium,REQ-30438,AV Support Engineer,"New York, New York, United States of America",Information Technology,IT Infrastructure,onsite,https://career.mlp.com/careers/job/755957962685,755957962685
 Millennium,REQ-30167,Senior Quantitative Developer,"New York, New York, United States of America",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755957773457,755957773457
 Millennium,REQ-30144,Compliance Analyst,"New York, New York, United States of America",Compliance,Regulatory Compliance,onsite,https://career.mlp.com/careers/job/755957593943,755957593943
-Millennium,REQ-29111,Linux Engineer - Latency Critical Trading Technology,"New York, New York, United States of America",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755956008380,755956008380
 Millennium,REQ-28161,Applied AI Engineer,"New York, New York, United States of America",Information Technology,IT - Artificial Intelligence,onsite,https://career.mlp.com/careers/job/755954423961,755954423961
+Millennium,REQ-29111,Linux Engineer - Latency Critical Trading Technology,"New York, New York, United States of America",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755956008380,755956008380
 Millennium,REQ-30025,Business Unit Control - Senior Product Manager,"New York, New York, United States of America",Operations & Middle Office,Middle Office,onsite,https://career.mlp.com/careers/job/755957412912,755957412912
 Millennium,REQ-30022,Business Unit Control – Senior Treasury,"New York, New York, United States of America",Operations & Middle Office,Middle Office,onsite,https://career.mlp.com/careers/job/755957412928,755957412928
 Millennium,REQ-29967,Software Engineer - Fixed Income Technology,"New York, New York, United States of America",Information Technology,FIC & Risk Technology,onsite,https://career.mlp.com/careers/job/755957314679,755957314679
 Millennium,REQ-29917,Senior Software Engineer - Data Platform,"New York, New York, United States of America",Information Technology,FIC & Risk Technology,onsite,https://career.mlp.com/careers/job/755957279618,755957279618
+Millennium,REQ-29920,End User Services Americas Manager,"New York, New York, United States of America",Information Technology,IT Infrastructure,onsite,https://career.mlp.com/careers/job/755957279616,755957279616
 Millennium,REQ-29914,Product Manager - Equity Volatility,"New York, New York, United States of America",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755957274122,755957274122
 Millennium,REQ-29848,Business Unit Control - Credit,"New York, New York, United States of America",Operations & Middle Office,Middle Office,onsite,https://career.mlp.com/careers/job/755957087280,755957087280
 Millennium,REQ-29850,Quantitative Developer – Fixed Income RAD,"New York, New York, United States of America",Information Technology,FIC & Risk Technology,onsite,https://career.mlp.com/careers/job/755957089067,755957089067
@@ -43,8 +47,8 @@ Millennium,REQ-29444,Risk Associate -  Equity Volatility,"New York, New York, Un
 Millennium,REQ-29446,"Quantitative Researcher, Quantitative Strategies","New York, New York, United States of America",Trading,Quant Strategies,onsite,https://career.mlp.com/careers/job/755956328628,755956328628
 Millennium,REQ-29447,"Quantitative Developer, Quantitative Strategies","New York, New York, United States of America",Trading,Quant Strategies,onsite,https://career.mlp.com/careers/job/755956329525,755956329525
 Millennium,REQ-29449,"Quantitative Analyst, Quantitative Strategies","New York, New York, United States of America",Trading,Quant Strategies,onsite,https://career.mlp.com/careers/job/755956329760,755956329760
-Millennium,REQ-29363,Business Analyst - Treasury,"New York, New York, United States of America",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755956234836,755956234836
 Millennium,REQ-29365,Portfolio Pricing and Valuations Strats Analyst,"New York, New York, United States of America",Operations & Middle Office,Middle Office,onsite,https://career.mlp.com/careers/job/755956235647,755956235647
+Millennium,REQ-29363,Project Manager / Business Analyst - Treasury Technology,"New York, New York, United States of America",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755956234836,755956234836
 Millennium,REQ-29265,Compliance Analyst,"Miami, Florida, United States of America",Compliance,Regulatory Compliance,onsite,https://career.mlp.com/careers/job/755956129964,755956129964
 Millennium,REQ-29227,Corporate Access,"New York, New York, United States of America",Trading,Equities,onsite,https://career.mlp.com/careers/job/755956091198,755956091198
 Millennium,REQ-29064,"Rates, Credit, FX and Mortgage Portfolio Pricing and Analytics, Technical Business Analyst/Project Manager","New York, New York, United States of America",Operations & Middle Office,Middle Office,onsite,https://career.mlp.com/careers/job/755955971379,755955971379
@@ -53,6 +57,7 @@ Millennium,REQ-28946,Senior Portfolio Researcher,"New York, New York, United Sta
 Millennium,REQ-28912,Feature Framework Engineer,"New York, New York, United States of America",Information Technology,Unknown,onsite,https://career.mlp.com/careers/job/755955682418,755955682418
 Millennium,REQ-28881,"Analyst, Underwriter – Asset Based Finance","Dallas, Texas, United States of America",Trading,Credit,onsite,https://career.mlp.com/careers/job/755955622440,755955622440
 Millennium,REQ-28882,Analyst – Asset Based Finance,"Dallas, Texas, United States of America",Trading,Credit,onsite,https://career.mlp.com/careers/job/755955623024,755955623024
+Millennium,REQ-28835,Portfolio Pricing and Valuations Analyst,"Miami, Florida, United States of America",Operations & Middle Office,Middle Office,onsite,https://career.mlp.com/careers/job/755955504767,755955504767
 Millennium,REQ-28699,Senior Software Engineer - Algo Development,"New York, New York, United States of America",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755955306170,755955306170
 Millennium,REQ-28648,Portfolio Pricing and Valuations Analyst,"New York, New York, United States of America",Operations & Middle Office,Middle Office,onsite,https://career.mlp.com/careers/job/755955224746,755955224746
 Millennium,REQ-28240,Senior Software Engineer - EQ Derivatives Pricing & Risk,"New York, New York, United States of America",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755954587117,755954587117
@@ -71,39 +76,40 @@ Millennium,REQ-27979,Quantitative Developer (Python) -  Central Liquidity Strate
 Millennium,REQ-27962,Reference Data Analyst,"New York, New York, United States of America",Operations & Middle Office,Ops & MO Control,onsite,https://career.mlp.com/careers/job/755954257548,755954257548
 Millennium,REQ-27753,Software Engineer - Learning Engineering and Data (LEaD) Program,"Miami, Florida, United States of America",Information Technology,IT LEad Program,onsite,https://career.mlp.com/careers/job/755953879362,755953879362
 Millennium,REQ-27612,Finance Analyst,"New York, New York, United States of America",Finance,Financial Planning & Analysis,onsite,https://career.mlp.com/careers/job/755953760149,755953760149
-Millennium,REQ-27497,Fund Accounting Manager,"New York, New York, United States of America",Finance,Fund Accounting,onsite,https://career.mlp.com/careers/job/755953514852,755953514852
 Millennium,REQ-25067,Compliance Officer,"Old Greenwich, Connecticut, United States of America",Compliance,Compliance Advisory,onsite,https://career.mlp.com/careers/job/755942682391,755942682391
 Millennium,REQ-25457,"Quantitative Researcher, Systematic Macro","New York, New York, United States of America",Trading,Quant Strategies,onsite,https://career.mlp.com/careers/job/755943671775,755943671775
+Millennium,REQ-31371,Systematic Project & Product Manager,"Hong Kong, Hong Kong",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755959066841,755959066841
+Millennium,REQ-31417,Campus Recruiting Analyst/Associate,"London, United Kingdom",Human Resources,Talent Acquisition,onsite,https://career.mlp.com/careers/job/755959094862,755959094862
 Millennium,REQ-31401,Advent Geneva Specialist,"Bangalore, Karnataka, India",Operations & Middle Office,Middle Office,onsite,https://career.mlp.com/careers/job/755959059472,755959059472
 Millennium,REQ-31391,Associate General Counsel,"London, United Kingdom",Legal,Legal,onsite,https://career.mlp.com/careers/job/755959048021,755959048021
 Millennium,REQ-31372,Client Services Associate,"Hong Kong, Hong Kong",Capital Development & Investor Relations,Capital Development,onsite,https://career.mlp.com/careers/job/755959012857,755959012857
 Millennium,REQ-31374,Executive Assistant,"London, United Kingdom",Administration,Administration - Global,onsite,https://career.mlp.com/careers/job/755959013622,755959013622
 Millennium,REQ-31378,Full Stack Developer – Treasury Technology,"London, United Kingdom",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755959016181,755959016181
+Millennium,REQ-31347,Quantitative Researcher,"Hong Kong, Hong Kong",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958997118,755958997118
 Millennium,REQ-31346,Infra Developer,"Hong Kong, Hong Kong",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958997120,755958997120
 Millennium,REQ-31357,Full Stack Developer – Equities Trading Technology,"London, United Kingdom",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755959006437,755959006437
 Millennium,REQ-31361,"Software Engineer, Post-Trade Platform (Java/Angular)","Bangalore, Karnataka, India",Information Technology,FIC & Risk Technology,onsite,https://career.mlp.com/careers/job/755959007287,755959007287
 Millennium,REQ-31348,Data Scientist,"Hong Kong, Hong Kong",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958997059,755958997059
-Millennium,REQ-31347,Quantitative Researcher,"Hong Kong, Hong Kong",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958997118,755958997118
 Millennium,REQ-31360,"Tech Lead, Post-Trade Platform (Java/Angular)","Bangalore, Karnataka, India",Information Technology,FIC & Risk Technology,onsite,https://career.mlp.com/careers/job/755959007239,755959007239
 Millennium,REQ-31336,Platform / Site Reliability Engineer,"Hong Kong, Hong Kong",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958978007,755958978007
 Millennium,REQ-31281,"Software Engineer, Treasury Technology","Singapore, Singapore",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958904170,755958904170
+Millennium,REQ-31268,Global Mobility and Immigration Manager,"London, United Kingdom",Human Resources,People Services,onsite,https://career.mlp.com/careers/job/755958887914,755958887914
 Millennium,REQ-31258,Fund Accounting Analyst,"Dublin, Ireland",Finance,Fund Accounting,onsite,https://career.mlp.com/careers/job/755958882464,755958882464
 Millennium,REQ-31269,Data Engineer - Commodities,"London, United Kingdom",Information Technology,FIC & Risk Technology,onsite,https://career.mlp.com/careers/job/755958887555,755958887555
-Millennium,REQ-31268,Global Mobility and Immigration Manager,"London, United Kingdom",Human Resources,People Services,onsite,https://career.mlp.com/careers/job/755958887914,755958887914
-Millennium,REQ-31247,Data Scientist,"Bangalore, Karnataka, India",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958887554,755958887554
 Millennium,REQ-31246,Infra Developer,"Bangalore, Karnataka, India",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958887553,755958887553
 Millennium,REQ-31244,Quantitative Researcher,"Bangalore, Karnataka, India",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958887561,755958887561
+Millennium,REQ-31247,Data Scientist,"Bangalore, Karnataka, India",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958887554,755958887554
 Millennium,REQ-31227,PnL Attribution Analytics,"Mumbai, Maharashtra, India",Operations & Middle Office,Unknown,onsite,https://career.mlp.com/careers/job/755958852583,755958852583
 Millennium,REQ-31232,Software Engineer - C++,"Bangalore, Karnataka, India",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958855585,755958855585
 Millennium,REQ-31190,Trading Application Support Analyst - Fixed Income & Commodities,"London, United Kingdom",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958784532,755958784532
-Millennium,REQ-31148,Paralegal - Compliance (6-Month Contract),"Hong Kong, Hong Kong",Compliance,Regulatory Compliance,onsite,https://career.mlp.com/careers/job/755958739947,755958739947
 Millennium,REQ-31149,Java Algo Developer - Algo Development Technology,"Tokyo, Tokyo, Japan",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958740781,755958740781
+Millennium,REQ-31148,Paralegal - Compliance (6-Month Contract),"Hong Kong, Hong Kong",Compliance,Regulatory Compliance,onsite,https://career.mlp.com/careers/job/755958739947,755958739947
 Millennium,REQ-31093,Equity Derivatives Trade Support Specialist,"London, United Kingdom",Operations & Middle Office,Middle Office,onsite,https://career.mlp.com/careers/job/755958666137,755958666137
 Millennium,REQ-31097,Junior Business Analyst,"London, United Kingdom",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958674493,755958674493
 Millennium,REQ-31084,Compliance Associate,"Singapore, Singapore",Compliance,Regulatory Compliance,onsite,https://career.mlp.com/careers/job/755958659703,755958659703
 Millennium,REQ-31067,Market Data Engineer,"Hong Kong, Hong Kong",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958639997,755958639997
-Millennium,REQ-31071,Quantitative Developer - Commodities,"Bangalore, Karnataka, India",Information Technology,FIC & Risk Technology,onsite,https://career.mlp.com/careers/job/755958647802,755958647802
 Millennium,REQ-31069,Application Support Engineer,"Bangalore, Karnataka, India",Information Technology,FIC & Risk Technology,onsite,https://career.mlp.com/careers/job/755958643439,755958643439
+Millennium,REQ-31071,Quantitative Developer - Commodities,"Bangalore, Karnataka, India",Information Technology,FIC & Risk Technology,onsite,https://career.mlp.com/careers/job/755958647802,755958647802
 Millennium,REQ-31007,Market Data Engineer,"London, United Kingdom",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958613268,755958613268
 Millennium,REQ-31047,Fixed Income Valuation Analytics,"London, United Kingdom",Operations & Middle Office,Middle Office,onsite,https://career.mlp.com/careers/job/755958617502,755958617502
 Millennium,REQ-31051,Software Engineer – Equity Derivatives Pricing & Risk,"London, United Kingdom",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958640790,755958640790
@@ -117,6 +123,7 @@ Millennium,REQ-30813,Data Center Engineer,"Mumbai, Maharashtra, India",Informati
 Millennium,REQ-30772,AI DevOps Engineer,"Singapore, Singapore",Information Technology,IT Infrastructure,onsite,https://career.mlp.com/careers/job/755958425590,755958425590
 Millennium,REQ-30775,Junior Project Manager – Telecom Infrastructure,"Bangalore, Karnataka, India",Information Technology,IT Infrastructure,onsite,https://career.mlp.com/careers/job/755958437206,755958437206
 Millennium,REQ-30783,Linux Low Latency Systems Engineer,"Hong Kong, Hong Kong",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958440031,755958440031
+Millennium,REQ-30782,Quantitative Developer - Fixed Income RAD,"London, United Kingdom",Information Technology,FIC & Risk Technology,onsite,https://career.mlp.com/careers/job/755958437534,755958437534
 Millennium,REQ-30763,"Risk Controls Manager, Asia","Hong Kong, Hong Kong",Risk Management,Risk Management,onsite,https://career.mlp.com/careers/job/755958390273,755958390273
 Millennium,REQ-30764,Paralegal (Fixed Term Contract),"London, United Kingdom",Legal,Legal,onsite,https://career.mlp.com/careers/job/755958399810,755958399810
 Millennium,REQ-30268,Cloud Engineer,"Tel Aviv, Israel",Information Technology,IT Infrastructure,onsite,https://career.mlp.com/careers/job/755957818104,755957818104
@@ -128,21 +135,20 @@ Millennium,REQ-30684,Equities Technology Relationship Manager,"Hong Kong, Hong K
 Millennium,REQ-30685,Executive Assistant,"Hong Kong, Hong Kong",Trading,Equities,onsite,https://career.mlp.com/careers/job/755958160836,755958160836
 Millennium,REQ-30689,Equities Technology Relationship Manager,"London, United Kingdom",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958167385,755958167385
 Millennium,REQ-30690,Quantitative Development - DevOps Engineer,"Dublin, Ireland",Execution Services,Quantitative Research & Development,onsite,https://career.mlp.com/careers/job/755958167716,755958167716
-Millennium,REQ-30523,Quantitative Developer - Equity Volatility Execution,"Hong Kong, Hong Kong",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958065522,755958065522
 Millennium,REQ-30532,Senior Quantitative Developer (C++) - Execution Technology,"London, United Kingdom",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958070605,755958070605
+Millennium,REQ-30523,Quantitative Developer - Equity Volatility Execution,"Hong Kong, Hong Kong",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755958065522,755958065522
 Millennium,REQ-30505,AI Data Scientist,"Hong Kong, Hong Kong",Trading,Equities,onsite,https://career.mlp.com/careers/job/755958044949,755958044949
 Millennium,REQ-30506,Equity Portfolio Pricing & Valuations Manager,"Mumbai, Maharashtra, India",Operations & Middle Office,Middle Office,onsite,https://career.mlp.com/careers/job/755958045191,755958045191
 Millennium,REQ-30507,FXPB Specialist - NAM Shift,"Bangalore, Karnataka, India",Operations & Middle Office,Middle Office,onsite,https://career.mlp.com/careers/job/755958050015,755958050015
 Millennium,REQ-30473,Reg Reporting (MiFID) Lead,"Bangalore, Karnataka, India",Operations & Middle Office,Ops & MO Control,onsite,https://career.mlp.com/careers/job/755957994657,755957994657
 Millennium,REQ-30456,"Senior Quantitative Engineer, Systematic Cross Commodity","London, United Kingdom",Trading,Quant Strategies,onsite,https://career.mlp.com/careers/job/755957963360,755957963360
-Millennium,REQ-30467,Trade Surveillance Analyst,"Bangalore, Karnataka, India",Compliance,Compliance Surveillance Program,onsite,https://career.mlp.com/careers/job/755957965574,755957965574
 Millennium,REQ-29773,Kdb+ Engineer - Systematic Data Platform,"Hong Kong, Hong Kong",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755956823436,755956823436
-Millennium,REQ-30412,Python Software Engineer - Intraday Trading,"London, United Kingdom",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755957919371,755957919371
 Millennium,REQ-29858,Client Services Associate,"Singapore, Singapore",Capital Development & Investor Relations,Capital Development,onsite,https://career.mlp.com/careers/job/755957089335,755957089335
-Millennium,REQ-30377,Network Engineer,"Singapore, Singapore",Information Technology,IT Infrastructure,onsite,https://career.mlp.com/careers/job/755957885726,755957885726
-Millennium,REQ-30388,Operations Specialist,"Hong Kong, Hong Kong",Operations & Middle Office,Core Operations,onsite,https://career.mlp.com/careers/job/755957892582,755957892582
+Millennium,REQ-30412,Python Software Engineer - Intraday Trading,"London, United Kingdom",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755957919371,755957919371
 Millennium,REQ-30376,Equity Volatility Risk Analyst,"Hong Kong, Hong Kong",Risk Management,Equities Risk,onsite,https://career.mlp.com/careers/job/755957885133,755957885133
+Millennium,REQ-30377,Network Engineer,"Singapore, Singapore",Information Technology,IT Infrastructure,onsite,https://career.mlp.com/careers/job/755957885726,755957885726
 Millennium,REQ-30379,Platform / Site Reliability Engineer,"Bangalore, Karnataka, India",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755957887421,755957887421
+Millennium,REQ-30388,Operations Specialist,"Hong Kong, Hong Kong",Operations & Middle Office,Core Operations,onsite,https://career.mlp.com/careers/job/755957892582,755957892582
 Millennium,REQ-30320,Senior Relationship Manager - Trading Services,"London, United Kingdom",Trading,Strategic Business Services,onsite,https://career.mlp.com/careers/job/755957827994,755957827994
 Millennium,REQ-30326,Core Tech Support Engineer,"Bangalore, Karnataka, India",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755957837799,755957837799
 Millennium,REQ-30266,"Quantitative Developer, Research & ML Engineering, Systematic Macro","London, United Kingdom",Trading,Quant Strategies,onsite,https://career.mlp.com/careers/job/755957812756,755957812756
@@ -153,8 +159,8 @@ Millennium,REQ-30156,"Quantitative Developer/Trading Systems Engineer, Systemati
 Millennium,REQ-30162,Quant Research Engineer,"Hong Kong, Hong Kong",Trading,Quant Strategies,onsite,https://career.mlp.com/careers/job/755957640548,755957640548
 Millennium,REQ-30124,Equity Research Analyst,"Bangalore, Karnataka, India",Trading,Equities,onsite,https://career.mlp.com/careers/job/755957548519,755957548519
 Millennium,REQ-30125,AI Data Engineer,"Tel Aviv, Israel",Information Technology,IT - Artificial Intelligence,onsite,https://career.mlp.com/careers/job/755957583465,755957583465
-Millennium,REQ-30088,Deep Learning Quantitative Researcher,"Hong Kong, Hong Kong",Trading,Fixed Income Risk,onsite,https://career.mlp.com/careers/job/755957516253,755957516253
 Millennium,REQ-30091,Server-Side Engineer (C++) - Pre-Trade Risk Technology,"Singapore, Singapore",Information Technology,Equity IT,onsite,https://career.mlp.com/careers/job/755957532215,755957532215
+Millennium,REQ-30088,Deep Learning Quantitative Researcher,"Hong Kong, Hong Kong",Trading,Fixed Income Risk,onsite,https://career.mlp.com/careers/job/755957516253,755957516253
 Millennium,REQ-30035,Relationship Manager,"Hong Kong, Hong Kong",Trading,Business & Strategic Development,onsite,https://career.mlp.com/careers/job/755957419269,755957419269
 Millennium,REQ-30036,Applied AI Engineer,"Tel Aviv, Israel",Information Technology,IT - Artificial Intelligence,onsite,https://career.mlp.com/careers/job/755957429295,755957429295
 Millennium,REQ-29970,"Quantitative Researcher, Quantitative Strategies","Hong Kong, Hong Kong",Trading,Quant Strategies,onsite,https://career.mlp.com/careers/job/755957362218,755957362218
